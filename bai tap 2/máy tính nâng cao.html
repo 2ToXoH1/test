@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>máy tính nâng cao</title>
+</head>
+<style>
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse
+    }
+</style>
+<body>
+<table>
+    <tr>
+        <td colspan="7"><label for="result"></label><input class="display box" type="text" id="result"/></td>
+    </tr>
+    <tr>
+        <th>Rad</th>
+        <th>&nbsp</th>
+        <th>x!</th>
+        <th style="width:12%">(</th>
+        <th style="width:12% ">)</th>
+        <th>%</th>
+        <th><input class="button" type="button" value="AC" onclick="clearscreen()"/></th>
+    </tr>
+    <tr>
+        <th>Inv</th>
+        <th><input class= "button" type="button" value ="sin" onclick="display('sin')"/></th>
+        <th>In</th>
+        <th><input class= "button" type="button" value="7" onclick="display('7')"/></th>
+        <th><input class= "button" type="button" value="8" onclick="display('8')"/></th>
+        <th><input class= "button" type="button" value="9" onclick="display('9')"/></th>
+        <th><input class= "button" type="button" value="+" onclick="display('+')"/></th>
+    </tr>
+    <tr>
+        <th>pi</th>
+        <th><input class= "button" type="button" value="cos" onclick="display('cos')"/></th>
+        <th>log</th>
+        <th><input class= "button" type="button" value ="4" onclick="display('4')"/></th>
+        <th><input class= "button" type="button" value ="5" onclick="display('5')"/></th>
+        <th><input class= "button" type="button" value ="6" onclick="display('6')"/></th>
+        <th><input class= "button" type="button" value ="-" onclick="display('-')"/></th>
+    </tr>
+    <tr>
+        <th>e</th>
+        <th><input class= "button" type="button" value="tan" onclick="display('tan')"/></th>
+        <th>jhjh</th>
+        <th><input class= "button" type="button" value ="1" onclick="display('1')"/></th>
+        <th><input class= "button" type="button" value ="2" onclick="display('2')"/></th>
+        <th><input class= "button" type="button" value ="3" onclick="display('3')"/></th>
+        <th><input class= "button" type="button" value ="*" onclick="display('*')"/></th>
+    </tr>
+    <tr>
+        <th>Ans</th>
+        <th>EXP</th>
+        <th>x</th>
+        <th>.</th>
+        <th><input class= "button" type="button" value ="0" onclick="display('0')"/></th>
+        <th><button onclick="caculate()">=</button></th>
+        <th><input class= "button" type="button" value ="/" onclick="display('/')"/></th>
+    </tr>
+    <script>
+        function display(value) {
+            document.getElementById("result").value += value
+        }
+    </script>
+    <script>
+        function clearscreen() {
+            document.getElementById('result').value= ""
+        }
+    </script>
+    <script>
+        function caculate() {
+            let p = document.getElementById("result").value
+            let q = eval(p)
+            document.getElementById("result").value = q
+        }
+    </script>
+</table>
+</body>
+</html>

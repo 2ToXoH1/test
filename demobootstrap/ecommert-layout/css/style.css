@@ -1,0 +1,9 @@
+.card .image-product-backup-1{
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .image-product-backup-1 {
+    display: inline;
+}

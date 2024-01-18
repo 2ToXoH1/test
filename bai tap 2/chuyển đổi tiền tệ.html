@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyển đổi tiền tệ</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>Amount</td>
+        <td>From Currency</td>
+        <td>To Currency</td>
+    </tr>
+    <tr>
+        <td><input type="text" id="inp"></td>
+        <td>
+            <select id="f">
+                <option value="1">Viet Nam</option>
+                <option value="23000">USD</option>
+                <option value="1700">Yen</option>
+            </select>
+        </td>
+        <td>
+            <select id="e">
+                <option value="1">Viet Nam</option>
+                <option value="23000">USD</option>
+                <option value="170">Yen</option>
+            </select>
+        </td>
+        <td><button onclick="doi">Đổi</button></td>
+    </tr>
+    <tr>
+        <td id="rs">result:</td>
+    </tr>
+    <script>
+        function doi() {
+            let mon = document.getElementById('inp').value
+            let from = document.getElementById('f').value
+            let to = document.getElementById('e').value
+            document.getElementById('rs').innerHTML = mon * from / to;
+        }
+    </script>
+</table>
+</body>
+</html>

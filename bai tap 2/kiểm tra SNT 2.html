@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    for (let dem=0, x=3; dem<=20; x++){
+        let kq=true;
+        for(let i=2; i<Math.sqrt(x); i++){
+            if(x%i===0){
+                kq=false;
+                break;
+            }
+        }
+        if(kq){
+            dem++;
+            document.write(x+"<br>")
+        }
+    }
+</script>
+</body>
+</html>

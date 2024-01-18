@@ -5,15 +5,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a36acbbd-4004-4e90-89cd-bde7b8556094" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cờ vua.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-HTLM-c10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/CSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/Hàm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/OOP.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/bootstrap/forgot-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/bootstrap/new-account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/css2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/hover, transittion, transform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/if...else test 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/if...else.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/mang 2 chieu, 1 chieu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/phạm vi của biến.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai giang/test css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Bàn cờ vua.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Good-fast-cheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/In các số lẻ từ a đến b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/In ra các sô chẵn từ a đến b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/In ra các số chính phương.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Kiểm tra số tuổi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Mảng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Thời khóa biểu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Tìm Max.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Tìm số lớn thứ 2 trong mảng dùng 1 vòng for 1 2 3 6 6 4 3 ra 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Tính cân nặng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Tính diện tích hình vuông.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Tính tổng các phần tử nhỏ hơn 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Tính tổng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Xếp hạng học lực.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/check tháng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/chuyen tu m sang ft.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/chuyển đổi tiền tệ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/cờ vua.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/giải phương trình.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/in ra các số từ a đến b. nhập a, b vào prompt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/js2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/kiểm tra SNT 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/kiểm tra số nguyên tố.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/may tinh 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/máy tính nâng cao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/máy tính đơn giản.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/nhập phần tử 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/tao form don gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/tao giao dien dang ky nguoi dung don gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/tinh tong 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/tìm vị trí của x đc nhập vào.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/tính diện tích hình chữ nhật.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 2/Đếm số phần tử chia hết cho 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap 3/thi thu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap/Bài b15 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap/Bài b5 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap/Bài b5 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap/Bài b6 1.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap/Bài b6 1.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap/Bài b6 2.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap/Bài b6 3.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap/bài b11 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap/bài b12 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai tap/bài b5 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demobootstrap/ecommert-layout/Snacks-&amp;-Munchies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demobootstrap/ecommert-layout/acount-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demobootstrap/ecommert-layout/cart-shopping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demobootstrap/ecommert-layout/images/4lCu2zih0ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demobootstrap/ecommert-layout/images/freshcart-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demobootstrap/ecommert-layout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demobootstrap/ecommert-layout/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rework/caculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test thuc hanh/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-HTLM-c10/Nhập vào sl phần tử.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-HTLM-c10/hdsag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-HTLM-c10/may tinh 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/Ai là triệu phú 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/Ai là triệu phú.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/bai 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/bai 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/bai 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/bai 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/bai1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thi/bai2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cờ vua.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/demobootstrap/ecommert-layout/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai giang/bootstrap/bootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-HTLM-c10" beforeDir="false" afterPath="$PROJECT_DIR$/test-HTLM-c10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-HTLM-c10/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-HTLM-c10/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-HTLM-c10/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,38 +107,78 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/mang 2 chieu, 1 chieu.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="11" />
+      <option value="12" />
+      <option value="13" />
+      <option value="14" />
+      <option value="15" />
+      <option value="16" />
+    </hideBySeverity>
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2WwE1XxNQbzqDPgUH4twQUtYYDH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/wedstorme pj&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.2.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\bai giang" />
+      <recent name="E:\code\thi" />
+      <recent name="E:\code\bai giang\bootstrap" />
+      <recent name="E:\code\demobootstrap\ecommert-layout\images" />
+      <recent name="E:\code\demobootstrap\ecommert-layout" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,11 +189,110 @@
       <updated>1697635029175</updated>
       <workItem from="1697635030268" duration="4197000" />
       <workItem from="1697680898327" duration="329000" />
-      <workItem from="1697802313590" duration="2910000" />
+      <workItem from="1697802313590" duration="8789000" />
+      <workItem from="1697979209882" duration="3730000" />
+      <workItem from="1698026415222" duration="6793000" />
+      <workItem from="1698062505136" duration="5337000" />
+      <workItem from="1698113988012" duration="3645000" />
+      <workItem from="1698131036552" duration="6485000" />
+      <workItem from="1698199212216" duration="8153000" />
+      <workItem from="1698286639662" duration="10415000" />
+      <workItem from="1698633487433" duration="595000" />
+      <workItem from="1698722142165" duration="3290000" />
+      <workItem from="1698806867694" duration="4291000" />
+      <workItem from="1698839386007" duration="9276000" />
+      <workItem from="1698893391632" duration="2184000" />
+      <workItem from="1698982319905" duration="1457000" />
+      <workItem from="1699271179920" duration="9368000" />
+      <workItem from="1699329727068" duration="1223000" />
+      <workItem from="1699444250483" duration="5794000" />
+      <workItem from="1699616859229" duration="8842000" />
+      <workItem from="1699682286903" duration="3661000" />
+      <workItem from="1699845150896" duration="2530000" />
+      <workItem from="1699876351711" duration="9010000" />
+      <workItem from="1699930644727" duration="679000" />
+      <workItem from="1700202418730" duration="1781000" />
+      <workItem from="1700221687021" duration="5292000" />
+      <workItem from="1700446736651" duration="767000" />
+      <workItem from="1700536082199" duration="809000" />
+      <workItem from="1700536913893" duration="188000" />
+      <workItem from="1700537115080" duration="2786000" />
+      <workItem from="1700793469151" duration="3168000" />
+      <workItem from="1700811319481" duration="413000" />
+      <workItem from="1700826937612" duration="1746000" />
+      <workItem from="1701257996999" duration="8726000" />
+      <workItem from="1701348500187" duration="1206000" />
+      <workItem from="1701689817729" duration="9807000" />
+      <workItem from="1701761741256" duration="1323000" />
+      <workItem from="1701865799852" duration="1213000" />
+      <workItem from="1702035217610" duration="7136000" />
+      <workItem from="1702042943149" duration="985000" />
+      <workItem from="1702294453088" duration="5738000" />
+      <workItem from="1702300414447" duration="2397000" />
+      <workItem from="1702363873706" duration="7905000" />
+      <workItem from="1702467176158" duration="8845000" />
+      <workItem from="1702558988138" duration="713000" />
+      <workItem from="1702570066642" duration="1261000" />
+      <workItem from="1702619037741" duration="2601000" />
+      <workItem from="1702899661164" duration="9241000" />
+      <workItem from="1702968121265" duration="6575000" />
+      <workItem from="1703072569754" duration="8345000" />
+      <workItem from="1703160823292" duration="7558000" />
+      <workItem from="1703246111304" duration="4251000" />
+      <workItem from="1703490886691" duration="1001000" />
+      <workItem from="1703504174554" duration="603000" />
+      <workItem from="1703680903395" duration="4710000" />
+      <workItem from="1704163523507" duration="1856000" />
+      <workItem from="1704176530613" duration="439000" />
+      <workItem from="1704283443540" duration="2336000" />
+      <workItem from="1704287886316" duration="2000" />
+      <workItem from="1704291734732" duration="12000" />
+      <workItem from="1704428344331" duration="2063000" />
+      <workItem from="1704682845732" duration="246000" />
+      <workItem from="1704683116265" duration="598000" />
+      <workItem from="1704686391673" duration="48000" />
+      <workItem from="1704686703735" duration="167000" />
+      <workItem from="1704719239302" duration="1031000" />
+      <workItem from="1704956899143" duration="451000" />
+      <workItem from="1704957564477" duration="1593000" />
+      <workItem from="1704959561120" duration="482000" />
+      <workItem from="1704960508744" duration="1639000" />
+      <workItem from="1704965700575" duration="769000" />
+      <workItem from="1705061679515" duration="24000" />
+      <workItem from="1705328576497" duration="236000" />
+      <workItem from="1705387479895" duration="201000" />
+      <workItem from="1705387687239" duration="6000" />
+      <workItem from="1705388331218" duration="1203000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

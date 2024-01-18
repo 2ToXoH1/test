@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>máy tính</title>
+</head>
+<body>
+<h1>Calculater</h1>
+<table>
+    <tr>
+        <td><input type="number" id="st1"></td>
+        <td><input type="number" id="st2"></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td><button onclick="cong()">cong</button></td>
+        <td><button onclick="tru()">tru</button></td>
+        <td><button onclick="nhan()">nhan</button></td>
+        <td><button onclick="chia()">chia</button></td>
+    </tr>
+    <tr>
+        <td id="rs">Kết quả:</td>
+    </tr>
+</table>
+
+<script>
+    function cong() {
+        let x = +document.getElementById('st1').value
+        let y = +document.getElementById('st2').value
+        document.getElementById('rs').innerHTML += x + y;
+
+    }
+</script>
+<script>
+    function tru() {
+        let x = +document.getElementById('st1').value
+        let y = +document.getElementById('st2').value
+        document.getElementById('rs').innerHTML += x - y;
+
+    }
+</script>
+<script>
+    function nhan() {
+        let x = +document.getElementById('st1').value
+        let y = +document.getElementById('st2').value
+        document.getElementById('rs').innerHTML += x * y;
+
+    }
+</script>
+<script>
+    function chia() {
+        let x = +document.getElementById('st1').value
+        let y = +document.getElementById('st2').value
+        document.getElementById('rs').innerHTML += x / y;
+
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiểm tra SNT</title>
+</head>
+<body>
+<script>
+    let x = 3
+    let dem = 0
+    while (dem<=20){
+        let kq = true;
+        for (let i=2; i<Math.sqrt(x); i++) {
+            if (x % i === 0) {
+                kq = false;
+                break;
+            }
+        }
+        if(kq){
+            dem ++;
+            document.write(x+'<br>')
+        }
+        x++;
+    }
+
+
+</script>
+</body>
+</html>

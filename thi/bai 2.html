@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+Viết hàm deleteNumberFromArray() nhận vào một mảng các số nguyên và một số nguyên vị trí index.
+Hàm trả về mảng ban đầu nếu vị trí index có giá trị nhỏ hơn 0 hoặc lớn hơn chiều dài mảng.
+Nếu không thì trả về mảng mới đã được xóa phần tử ở vị trí index.
+-->
+<script>
+    index=[9, 5, 0, 1]
+    function deleteNumberFromArray(arr, index){
+        if (index < 0; index >= arr.length) {
+            return arr;
+        }
+    let brr = arr.slice();
+    brr.splice(index, 1);
+    return brr
+    }
+</script>
+</body>
+</html>

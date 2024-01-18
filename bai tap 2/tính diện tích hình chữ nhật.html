@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính diện tích hình chữ nhật</title>
+</head>
+<body>
+<p>Nhập a <label for="a"></label><input type="text" id="a" value=""/></p>
+<p>Nhập b <label for="b"></label><input type="text" id="b" value=""/> </p>
+<span id="result"></span>
+<p><input type="button" id="TinhDT" value="Tính diện tích"/></p>
+<script>
+    let TinhDT = document.getElementById('Tính diện tích')
+    TinhDT.onclick=function() {
+        let a = document.getElementById('a').value
+        let b = document.getElementById('b').value
+        if (a == "" || b == "") {
+            alert("Vui lòng nhập dữ liệu");
+        }
+        else {
+            a = Number(a);
+            b = Number(b);
+            Tinh_dien_tich_hinh_chu_nhat(a, b);
+        }
+    function  Tinh_dien_tich_hinh_chu_nhat(a,b){
+        } let x = a * b
+        alert(x);
+    }
+</script>
+</body>
+</html>

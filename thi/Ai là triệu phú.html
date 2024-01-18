@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ai là triệu phú</title>
+</head>
+<body>
+<script>
+    let questions = [
+        { question: "Câu hỏi 1: Ai là người sáng lập Liên Minh Huyền Thoại?", options: ["A. Marc Merrill và Brandon Beck", "B. Steve Jobs và Steve Wozniak", "C. Bill Gates và Paul Allen", "D. Mark Zuckerberg và Eduardo Saverin"], correctAnswer: 0 },
+        { question: "Câu hỏi 2: Chiêu thức nào của Yasuo có thể chặn một số chiêu thức kỹ năng của đối thủ?", options: ["A. Tornado", "B. Steel Tempest", "C. Wind Wall", "D. Sweeping Blade"], correctAnswer: 2 },
+        { question: "Câu hỏi 3: Tướng nào thuộc về hệ phái Piltover trong thế giới LMHT?", options: ["A. Jinx", "B. Darius", "C. Ahri", "D. Garen"], correctAnswer: 0 },
+        { question: "Câu hỏi 4: Bản đồ nào trong Liên Minh Huyền Thoại có ba đường đi chính?", options: ["A. Summoner's Rift", "B. Howling Abyss", "C. Twisted Treeline", "D. Crystal Scar"], correctAnswer: 0 }
+    ];
+
+    let currentQuestion = 0;
+    let score = 0;
+
+    function askQuestion() {
+        let questionData = questions[currentQuestion];
+        let userAnswer = prompt(questionData.question + "\n" + questionData.options.join("\n"));
+
+        if (userAnswer !== null) {
+            userAnswer = parseInt(userAnswer);
+            if (!isNaN(userAnswer) && userAnswer >= 0 && userAnswer < questionData.options.length) {
+                if (userAnswer === questionData.correctAnswer) {
+                    alert("Chính xác! Bạn đã nhận được 1 điểm.");
+                    score++;
+                } else {
+                    alert("Sai rồi! Đáp án đúng là " + questionData.options[questionData.correctAnswer]);
+                }
+                currentQuestion++;
+
+                if (currentQuestion < questions.length) {
+                    askQuestion();
+                } else {
+                    alert("Chúc mừng! Bạn đã hoàn thành trò chơi. Điểm của bạn là: " + score);
+                }
+            } else {
+                alert("Vui lòng chọn một số từ 0 đến " + (questionData.options.length - 1));
+                askQuestion();
+            }
+        }
+    }
+    askQuestion();
+</script>
+</body>
+</html>

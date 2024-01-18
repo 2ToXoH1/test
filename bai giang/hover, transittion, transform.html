@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!--
+<style>
+    .block{
+        width: 300px;
+        height: 300px;
+        background: red;
+        transition: 0.4s
+    }
+    .out{
+        width: 300px;
+        height: 300px;
+        border: 5px solid
+    }
+    .out:hover .block{
+        border-radius: 50%;
+        background: yellow;
+        transform: scale(1.2) translateX(300px)
+    }
+</style>
+-->
+<style>
+    .o1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   .block{
+       width: calc(25% - 10px);
+       margin: 5px;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       position: relative;
+       opacity: 0.5;
+       transition: 0.4s
+   }
+    .block:hover{
+        opacity: 1;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 0 rgba(0,0,0,0.75)
+    }
+   .block>img{
+       width: 100%;
+       transition: 0.4s;
+       border-radius: 5px
+   }
+    .block:hover img{
+        width: 95%
+    }
+   .block>p{
+       text-align: center;
+   }
+    .block>h4 {
+        border: 1px solid;
+        padding: 20px;
+        border-radius: 3px;
+        position: absolute;
+        top: 30%;
+        display: none;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.4s;
+    }
+   .block:hover h4 {
+       display: block;
+   }
+</style>
+<!--<style>
+    .block{
+        width: 300px;
+        height: 300px;
+        background: red;
+        animation: men 1s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+    }
+    @keyframes men{
+        0%{
+            background: red;
+            margin: 0;
+        }
+        25%{
+            background: blue;
+            margin-left: 500px;
+            margin-top: 0;
+        }
+        50%{
+            background: blue;
+            margin-top: 500px;
+            margin-left: 500px;
+        }
+        75%{
+            background: gold;
+            margin-left: 0;
+            margin-top: 500px;
+        }
+        100%{
+            background: gold;
+            margin:0;
+        }
+    }
+</style> -->
+<body>
+<div class="out">
+    <div class="block"></div>
+</div>
+   <img src="https://i.pinimg.com/736x/56/86/03/568603cbd1860c67bf8f6776cbe7f885.jpg" alt="">
+        <p>Nhập môn lập trình</p>
+        <h4>xem khóa học</h4>
+    </div>
+    <div class="block">
+        <img src="https://i.pinimg.com/736x/56/86/03/568603cbd1860c67bf8f6776cbe7f885.jpg" alt="">
+        <p>Nhập môn lập trình</p>
+        <h4>xem khóa học</h4>
+    </div>
+    <div class="block">
+        <img src="https://i.pinimg.com/736x/56/86/03/568603cbd1860c67bf8f6776cbe7f885.jpg" alt="">
+        <p>Nhập môn lập trình</p>
+        <h4>xem khóa học</h4>
+    </div>
+    <div class="block">
+        <img src="https://i.pinimg.com/736x/56/86/03/568603cbd1860c67bf8f6776cbe7f885.jpg" alt="">
+        <p>Nhập môn lập trình</p>
+        <h4>xem khóa học</h4>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    #game-container {
+        max-width: 600px;
+        margin: 50px auto;
+    }
+
+    #options {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #options li {
+        margin: 10px;
+    }
+
+    #result {
+        font-weight: bold;
+        margin-top: 20px;
+    }
+</style>
+<body>
+<div id="game-container">
+    <h1 id="question"></h1>
+    <ul id="options"></ul>
+    <p id="result"></p>
+    <button id="next-btn">Câu tiếp theo</button>
+</div>
+<script>
+    const questions = [
+        {
+            question: "Ai là người đầu tiên bước chân lên mặt trăng?",
+            options: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
+            correctAnswer: 0
+        },
+        {
+            question: "Thủ đô của nước Anh là gì?",
+            options: ["London", "Paris", "Berlin", "Madrid"],
+            correctAnswer: 0
+        },
+    ];
+    let currentQuestionIndex = 0;
+    let score = 0;
+
+    const questionElement = document.getElementById("question");
+    const optionsElement = document.getElementById("options");
+    const resultElement = document.getElementById("result");
+    const nextButton = document.getElementById("next-btn");
+    function showQuestion() {
+        const currentQuestion = questions[currentQuestionIndex];
+        questionElement.textContent = currentQuestion.question;
+        optionsElement.innerHTML = "";
+        currentQuestion.options.forEach((option, index) => {
+            const li = document.createElement("li");
+            li.textContent = option;
+            li.addEventListener("click", () => checkAnswer(index));
+            optionsElement.appendChild(li);
+        });
+    }
+    function checkAnswer(selectedIndex) {
+        const currentQuestion = questions[currentQuestionIndex];
+        if (selectedIndex === currentQuestion.correctAnswer) {
+            resultElement.textContent = "Đúng!";
+            score++;
+        } else {
+            resultElement.textContent = "Sai. Đáp án đúng là: " + currentQuestion.options[currentQuestion.correctAnswer];
+        }
+        nextButton.disabled = false;
+        optionsElement.querySelectorAll("li").forEach(li => li.removeEventListener("click", checkAnswer));
+    }
+    function nextQuestion() {
+        currentQuestionIndex++;
+        resultElement.textContent = "";
+        if (currentQuestionIndex < questions.length) {
+            showQuestion();
+            nextButton.disabled = true;
+            optionsElement.querySelectorAll("li").forEach(li => li.addEventListener("click", () => checkAnswer));
+        } else {
+            endGame();
+        }
+    }
+    function endGame() {
+        questionElement.textContent = "Trò chơi kết thúc!";
+        optionsElement.innerHTML = "Điểm của bạn: " + score + "/" + questions.length;
+        nextButton.style.display = "none";
+    }
+    nextButton.addEventListener("click", nextQuestion);
+    showQuestion();
+</script>
+</body>
+</html>
